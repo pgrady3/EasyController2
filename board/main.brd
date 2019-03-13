@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
@@ -719,48 +719,48 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-08370" x="39" y="14" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="IC2" library="Custom_old" package="DIP762W53P254L1092H508Q8B" package3d_urn="urn:adsk.eagle:package:8117760/1" value="L6387EDIP8" x="39" y="7" smashed="yes">
-<attribute name="NAME" x="39" y="13.096" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="39" y="6.365" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="39" y="0.904" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="IC3" library="Custom_old" package="DIP762W53P254L1092H508Q8B" package3d_urn="urn:adsk.eagle:package:8117760/1" value="L6387EDIP8" x="25" y="7" smashed="yes">
-<attribute name="NAME" x="25" y="13.096" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="25" y="6.365" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="25" y="0.904" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="1uF" x="25" y="14" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CAP-08370" x="25" y="14" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="IC4" library="Custom_old" package="DIP762W53P254L1092H508Q8B" package3d_urn="urn:adsk.eagle:package:8117760/1" value="L6387EDIP8" x="11" y="7" smashed="yes">
-<attribute name="NAME" x="11" y="13.096" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="11" y="6.365" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="11" y="0.904" size="1.27" layer="27" align="top-center"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="1uF" x="11" y="14" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CAP-08370" x="11" y="14" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Q1" library="Custom_old" package="TO-220-FLAT" value="" x="11" y="44" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.08" y="40.19" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="11" y="34.12575" size="1.27" layer="25" align="bottom-center"/>
 </element>
 <element name="Q2" library="Custom_old" package="TO-220-FLAT" value="" x="11" y="50" smashed="yes">
-<attribute name="NAME" x="5.92" y="53.81" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="11" y="58.60425" size="1.27" layer="25" align="bottom-center"/>
 </element>
 <element name="U$4" library="Custom_old" package="PAD" value="PAD" x="53" y="69" smashed="yes" rot="R90"/>
 <element name="U$5" library="Custom_old" package="PAD" value="PAD" x="62" y="69" smashed="yes" rot="R270"/>
 <element name="Q3" library="Custom_old" package="TO-220-FLAT" value="" x="25" y="44" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.08" y="40.19" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="25" y="34.12575" size="1.27" layer="25" align="bottom-center"/>
 </element>
 <element name="Q4" library="Custom_old" package="TO-220-FLAT" value="" x="25" y="50" smashed="yes">
-<attribute name="NAME" x="19.92" y="53.81" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="25" y="58.60425" size="1.27" layer="25" align="bottom-center"/>
 </element>
 <element name="Q5" library="Custom_old" package="TO-220-FLAT" value="" x="39" y="44" smashed="yes" rot="R180">
-<attribute name="NAME" x="44.08" y="40.19" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="39" y="34.12575" size="1.27" layer="25" align="bottom-center"/>
 </element>
 <element name="Q6" library="Custom_old" package="TO-220-FLAT" value="" x="39" y="50" smashed="yes">
-<attribute name="NAME" x="33.92" y="53.81" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="39" y="58.60425" size="1.27" layer="25" align="bottom-center"/>
 </element>
 <element name="U$6" library="Custom_old" package="PAD" value="PAD" x="11" y="72" smashed="yes"/>
 <element name="U$7" library="Custom_old" package="PAD" value="PAD" x="25" y="72" smashed="yes"/>
 <element name="U$8" library="Custom_old" package="PAD" value="PAD" x="39" y="72" smashed="yes"/>
 <element name="D1" library="SparkFun-DiscreteSemi" package="DIODE-1N4001" value="TVS" x="60" y="54" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.524" y="54" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="58.603" y="54" size="0.6096" layer="25" font="vector" ratio="20" align="center-right"/>
 <attribute name="PROD_ID" value="DIO-09176" x="60" y="54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="58.476" y="54" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
@@ -775,32 +775,32 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="52.5" y="37.207" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="2.2k" x="88" y="28" smashed="yes" rot="R270">
-<attribute name="NAME" x="89.016" y="28" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="86.9967" y="28" size="0.6096" layer="25" font="vector" ratio="20" align="center-right"/>
 <attribute name="PROD_ID" value=" " x="88" y="28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="86.984" y="28" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="AXIAL-0.3" value="2.2k" x="85" y="28" smashed="yes" rot="R270">
-<attribute name="NAME" x="86.016" y="28" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="83.9967" y="28" size="0.6096" layer="25" font="vector" ratio="20" align="center-right"/>
 <attribute name="PROD_ID" value=" " x="85" y="28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="83.984" y="28" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="2.2k" x="82" y="28" smashed="yes" rot="R270">
-<attribute name="NAME" x="83.016" y="28" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="80.9967" y="28" size="0.6096" layer="25" font="vector" ratio="20" align="center-right"/>
 <attribute name="PROD_ID" value=" " x="82" y="28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="80.984" y="28" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="AXIAL-0.3" value="2.2k" x="88" y="38" smashed="yes" rot="R90">
-<attribute name="NAME" x="86.984" y="38" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="86.9967" y="38" size="0.6096" layer="25" font="vector" ratio="20" align="center-right"/>
 <attribute name="PROD_ID" value=" " x="88" y="38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="89.016" y="38" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="AXIAL-0.3" value="2.2k" x="85" y="38" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.984" y="38" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="83.9967" y="38" size="0.6096" layer="25" font="vector" ratio="20" align="center-right"/>
 <attribute name="PROD_ID" value=" " x="85" y="38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="86.016" y="38" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="AXIAL-0.3" value="2.2k" x="82" y="38" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.984" y="38" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="80.9967" y="38" size="0.6096" layer="25" font="vector" ratio="20" align="center-right"/>
 <attribute name="PROD_ID" value=" " x="82" y="38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="83.016" y="38" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
@@ -818,7 +818,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="80.08" y="66.73" size="1.27" layer="21" rot="R180"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="AXIAL-0.3" value="47k" x="74" y="55" smashed="yes">
-<attribute name="NAME" x="74" y="56.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="74" y="56.1303" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="74" y="55" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="74" y="53.984" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
@@ -831,7 +831,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="11" y="19.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R10" library="SparkFun-Resistors" package="AXIAL-0.3" value="22" x="11" y="21" smashed="yes" rot="R180">
-<attribute name="NAME" x="11" y="19.984" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="11" y="22.1303" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="11" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="11" y="22.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
@@ -841,7 +841,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="25" y="19.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R12" library="SparkFun-Resistors" package="AXIAL-0.3" value="22" x="25" y="21" smashed="yes" rot="R180">
-<attribute name="NAME" x="25" y="19.984" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="25" y="22.1303" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="25" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="25" y="22.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
@@ -851,7 +851,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="39" y="19.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="R14" library="SparkFun-Resistors" package="AXIAL-0.3" value="22" x="39" y="21" smashed="yes" rot="R180">
-<attribute name="NAME" x="39" y="19.984" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="39" y="22.1303" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="39" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="39" y="22.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
@@ -885,7 +885,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="PROD_ID" value="CAP-08370" x="72" y="45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R8" library="SparkFun-Resistors" package="AXIAL-0.3" value="47k" x="74" y="58" smashed="yes" rot="R180">
-<attribute name="NAME" x="74" y="56.984" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="74" y="59.1303" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="74" y="58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="74" y="59.016" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
