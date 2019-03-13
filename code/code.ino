@@ -17,8 +17,7 @@
 
 #define HALL_OVERSAMPLE 4     // Hall oversampling count. More on this in the getHalls() function
 
-//uint8_t hallToMotor[8] = {255, 255, 255, 255, 255, 255, 255, 255};
-uint8_t hallToMotor[8] = {255, 2, 4, 3, 0, 1, 5, 255};  // Brunei hub motor. Mar 08, 2019
+uint8_t hallToMotor[8] = {255, 255, 255, 255, 255, 255, 255, 255};
 
 void setup() {                // The setup function is called ONCE on boot-up
   Serial.begin(115200);
@@ -41,7 +40,7 @@ void setup() {                // The setup function is called ONCE on boot-up
 
   pinMode(THROTTLE_PIN, INPUT);
   
-  //identifyHalls();                  // Uncomment this if you want the controller to auto-identify the hall states at startup!
+  identifyHalls();                  // Uncomment this if you want the controller to auto-identify the hall states at startup!
 }
 
 void loop() {                         // The loop function is called repeatedly, once setup() is done
