@@ -23,9 +23,7 @@ This controller was designed to fill a gap in publicly released motor controller
 
 ## Board
 
-![Board](/docs/board.png)
-
-![Board](/docs/top.jpg)
+![Board](/docs/board.png) ![Board](/docs/top.jpg)
 
 ## Software
 
