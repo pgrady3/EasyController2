@@ -1,5 +1,7 @@
 # EasyController2
 
+*NOTE: Check out the [EasyTelemetry](https://github.com/pgrady3/EasyTelemetry) project for a similarly simple board for logging vehicle voltage/current/speed/position.*
+
 A simple brushless (BLDC) sensored motor controller. Intended to drive electric vehicles such as electric bikes, skateboards, or Eco-Marathon vehicles. The controller can handle nominal power of about 1kW.
 
 This controller was designed to fill a gap in publicly released motor controller designs. It is simple enough to serve as an introduction to power electronics, and to hopefully allow those unfamiliar with motors to get their feet wet. To this end, the controller is designed to be as simple and easy-to-understand as possible. Thus it lacks more complex features such as sensorless control or current-feedback control, however these features can be easily added with some modifications. This project is meant as a learning tool and a foundation to potentially build more complex designs from.
