@@ -1,3 +1,5 @@
+### Dec 2022: Due to the global shortage of the Teensy 3.2 and the gate driver going obsolete, I'm working on an updated EasyController3. This will feature newer components, be lower cost, and feature closed-loop current control and synchronous switching. This is targeted to be ready in Jan 2023. Please reach out to us on the DEV website for any comments or questions.
+
 # EasyController2
 
 *NOTE: Check out the [EasyTelemetry](https://github.com/pgrady3/EasyTelemetry) project for a similarly simple board for logging vehicle voltage/current/speed/position.*
