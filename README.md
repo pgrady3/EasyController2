@@ -1,5 +1,4 @@
-### The EasyController3 has been released. It is cheaper, more efficient, and uses parts that are in-stock. Check it out here!
-[EasyController3](https://github.com/pgrady3/EasyController3)
+### The EasyController3 has been released. It is cheaper, more efficient, and uses parts that are in-stock. [Check it out here!](https://github.com/pgrady3/EasyController3)
 
 # EasyController2
 
